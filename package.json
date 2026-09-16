@@ -18,7 +18,7 @@
     "db:seed": "prisma db seed",
     "seed": "prisma db seed",
     "electron:dev": "electron electron/main.cjs",
-    "electron:build": "npm run db:generate && node scripts/build.js && electron-builder --publish never",,
+    "electron:build": "npm run db:generate && node scripts/build.js && electron-builder --publish never",
     "dist": "electron-builder --win",
     "dist:portable": "electron-builder --win portable",
     "dist:installer": "electron-builder --win nsis",
